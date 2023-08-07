@@ -1,0 +1,47 @@
+Pre-requisitos:
+
+Base de datos: MySQL 8.0
+Versión de PHP: v7.3
+Git
+Sistema operativo Windows
+
+Repositorio Git:
+
+1 - En GitHub, clickear en el botón "Code", seleccionar la opción "HTTPS" y copiar el link.
+
+2 - Crear una carpeta donde quiera instalar el programa. Abrir CMD y ejecutar el comando:
+
+cd <<ubicacion del programa escojida>>
+
+ejemplo:
+
+cd C:\users\Daniel Nanjari\Desktop\Sistema_votacion
+
+3 - Ejecutar el siguiente comando:
+
+git clone <<link del proyecto>>
+
+MySQL:
+
+1 - Correr el archivo SQL en MySQL workbench. El archivo SQL se encuentra en la carpeta SQL y se llama Base de datos.sql.
+
+2 - En caso de que no funcione, comentar la línea "DROP DATABASE SISTEMA_VOTACION;" en el archivo. 
+
+Instrucciones de uso:
+
+ - En la línea de comandos: 
+
+windows:
+cd <<ubicacion del programa>>
+
+ejemplo:
+
+cd C:\users\Daniel Nanjari\Desktop\Sistema_votacion
+
+Luego ejecutar la siguiente linea para usar el sistema en Localhost
+
+php -S 127.0.0.1:8000
+
+Para utilizar el programa vaya a su navegador y en la caja de dirección entre: 127.0.0.1:8000 y pulse enter.
+
+Ya puede utilizar el programa.
