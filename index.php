@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "VOTACION";
+$username = "root";
 $password = "";
 $database = "sistema_votacion";
 
