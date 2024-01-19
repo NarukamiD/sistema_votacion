@@ -1,6 +1,7 @@
 Pre-requisitos:
 
 Base de datos: MySQL 8.0
+MySQL Workbench
 Versión de PHP: v7.3
 Git
 Sistema operativo Windows
@@ -23,9 +24,10 @@ git clone <<link del proyecto>>
 
 MySQL:
 
-1 - Correr el archivo SQL en MySQL workbench. El archivo SQL se encuentra en la carpeta SQL y se llama Base de datos.sql.
+1 - Abrir MySQL workbench y login en su cuenta root. Crear el usuario VOTACION sin contraseña con los siguientes permisos: CREATE, CREATE TABLESPACE, ALTER, DELETE, DROP, INSERT, REFERENCES, SELECT.
 
-2 - En caso de que no funcione, comentar la línea "DROP DATABASE SISTEMA_VOTACION;" en el archivo. 
+2 - Login con VOTACION y correr el archivo SQL proporcionado en la carpeta SQL en MySQL workbench.
+
 
 Instrucciones de uso:
 
@@ -40,8 +42,8 @@ cd C:\users\Daniel Nanjari\Desktop\Sistema_votacion
 
 Luego ejecutar la siguiente linea para usar el sistema en Localhost
 
-php -S 127.0.0.1:8000
+php -S localhost:8000
 
-Para utilizar el programa vaya a su navegador y en la caja de dirección entre: 127.0.0.1:8000 y pulse enter.
+Para utilizar el programa vaya a su navegador y en la caja de dirección entre: localhost:8000 y pulse enter.
 
 Ya puede utilizar el programa.
